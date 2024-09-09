@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturas de Tarot Evolutivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4b0082;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #6a0dad;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #4b0082;
+        }
+        footer {
+            background-color: #4b0082;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #6a0dad;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #4b0082;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lecturas de Tarot Evolutivo</h1>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Sobre el Tarot</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section>
+    <h2>¿Qué es el Tarot Evolutivo?</h2>
+    <p>El Tarot Evolutivo es una herramienta poderosa para el crecimiento personal y la autoexploración. A través de las cartas, te ayudaré a descubrir aspectos ocultos de tu vida y a encontrar nuevas perspectivas para tu desarrollo.</p>
+</section>
+
+<section>
+    <h2>Servicios</h2>
+    <p>Ofrezco lecturas de tarot personalizadas que te ayudarán a:</p>
+    <ul>
+        <li>Entender mejor tus desafíos y oportunidades</li>
+        <li>Encontrar claridad en decisiones importantes</li>
+        <li>Explorar tu evolución personal y espiritual</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+    <p>Si estás interesado en una lectura de tarot o tienes alguna pregunta, por favor completa el siguiente formulario:</p>
+    <div class="contact-form">
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Lecturas de Tarot Evolutivo. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
